@@ -1,0 +1,30 @@
+﻿生成启动时间为 11/10/2015 12:13:44 AM。
+     1>项目“E:\专业文件\研一\CAD\Brep_mycode\my_brep\my_brep\my_brep.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\my_brep.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\vs2010\VC\bin\CL.exe /c /I"e:\专业文件\研一\CAD\Brep_mycode\glm-0.9.4.0" /I"e:\专业文件\研一\CAD\Brep_mycode\glew\include" /I"e:\专业文件\研一\CAD\Brep_mycode\glfw-3.0.3\include\GLFW" /I"e:\专业文件\研一\CAD\Brep_mycode\common" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt EularOperation.cpp
+         EularOperation.cpp
+     1>e:\专业文件\研一\cad\brep_mycode\my_brep\my_brep\eularoperation.cpp(23): warning C4101: “v”: 未引用的局部变量
+     1>e:\专业文件\研一\cad\brep_mycode\my_brep\my_brep\brep.h(355): warning C4715: “Solid::deleteFace”: 不是所有的控件路径都返回值
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         e:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\专业文件\研一\CAD\Brep_mycode\my_brep\Debug\my_brep.exe" /INCREMENTAL /NOLOGO /LIBPATH:"e:\专业文件\研一\CAD\Brep_mycode\glew\lib" /LIBPATH:"e:\专业文件\研一\CAD\Brep_mycode\glfw-3.0.3\src" opengl32.lib glu32.lib glfw3.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\my_brep.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\专业文件\研一\CAD\Brep_mycode\my_brep\Debug\my_brep.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\专业文件\研一\CAD\Brep_mycode\my_brep\Debug\my_brep.lib" /MACHINE:X86 Debug\my_brep.exe.embed.manifest.res
+         Debug\shader.obj
+         Debug\EularOperation.obj
+         Debug\main.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\my_brep.exe.embed.manifest" /manifest Debug\my_brep.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         my_brep.vcxproj -> E:\专业文件\研一\CAD\Brep_mycode\my_brep\Debug\my_brep.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\my_brep.unsuccessfulbuild”。
+         正在对“Debug\my_brep.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\专业文件\研一\CAD\Brep_mycode\my_brep\my_brep\my_brep.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.68

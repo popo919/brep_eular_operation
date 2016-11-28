@@ -1,0 +1,11 @@
+#version 120
+
+varying vec3 fragNormal;
+
+void main()
+{
+	
+	//gl_FragColor = vec4(1, 1, 0, 1);
+	gl_FragColor = vec4(1, 1, 0, 1);
+	gl_FragColor = vec4(fragNormal/2+vec3(1,1,1)/2, 1);
+}
